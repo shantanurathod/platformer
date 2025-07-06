@@ -255,4 +255,4 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="buttons" parent="." instance=ExtResource("6_p57ef")]
+[node name="buttons" parent="Control" instance=ExtResource("6_p57ef")]

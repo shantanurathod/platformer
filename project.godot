@@ -13,6 +13,7 @@ config_version=5
 config/name="First Game"
 run/main_scene="uid://bpklo86gtiu0i"
 config/features=PackedStringArray("4.4", "Forward Plus")
+boot_splash/image="uid://by4ti2rvdd0sv"
 config/icon="res://icon.svg"
 
 [display]

@@ -10,6 +10,7 @@ position = Vector2(155, 207.228)
 scale = Vector2(0.326, 0.304)
 texture_normal = ExtResource("1_ew542")
 action = "right"
+visibility_mode = 1
 
 [node name="left" type="TouchScreenButton" parent="."]
 modulate = Color(1, 1, 1, 0.392157)
@@ -18,6 +19,7 @@ rotation = 3.14159
 scale = Vector2(0.326, 0.304)
 texture_normal = ExtResource("1_ew542")
 action = "left"
+visibility_mode = 1
 
 [node name="jump" type="TouchScreenButton" parent="."]
 modulate = Color(1, 1, 1, 0.392157)
@@ -26,3 +28,4 @@ rotation = -1.5708
 scale = Vector2(0.326, 0.304)
 texture_normal = ExtResource("1_ew542")
 action = "jump"
+visibility_mode = 1

@@ -21,7 +21,7 @@ action = "left"
 
 [node name="jump" type="TouchScreenButton" parent="."]
 modulate = Color(1, 1, 1, 0.392157)
-position = Vector2(1022, 643)
+position = Vector2(1445, 643)
 rotation = -1.5708
 scale = Vector2(0.326, 0.304)
 texture_normal = ExtResource("1_ew542")

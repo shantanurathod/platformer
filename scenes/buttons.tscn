@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://jvd1w8mqpvnp"]
+
+[ext_resource type="Texture2D" uid="uid://cjo3q60x5yjg6" path="res://assests/icons/right_arrow.svg" id="1_ew542"]
+
+[node name="buttons" type="CanvasLayer"]
+
+[node name="right" type="TouchScreenButton" parent="."]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(94.858, 585.7)
+scale = Vector2(0.161, 0.15)
+texture_normal = ExtResource("1_ew542")
+action = "right"
+
+[node name="left" type="TouchScreenButton" parent="."]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(83.858, 641.7)
+rotation = 3.14159
+scale = Vector2(0.161, 0.15)
+texture_normal = ExtResource("1_ew542")
+action = "left"
+
+[node name="jump" type="TouchScreenButton" parent="."]
+modulate = Color(1, 1, 1, 0.392157)
+position = Vector2(1070, 639)
+rotation = -1.5708
+scale = Vector2(0.161, 0.15)
+texture_normal = ExtResource("1_ew542")
+action = "jump"

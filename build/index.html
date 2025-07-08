@@ -130,6 +130,19 @@
           .requestFullscreen()
           .catch((e) => console.log(e));
       });
+
+      // Mobile double-tap
+      let lastTap = 0;
+      document.addEventListener("touchend", () => {
+        const now = new Date().getTime();
+        const timeSince = now - lastTap;
+        if (timeSince < 300 && timeSince > 0) {
+          document.documentElement
+            .requestFullscreen()
+            .catch((err) => console.log(err));
+        }
+        lastTap = now;
+      });
       const GODOT_CONFIG = {
         args: [],
         canvasResizePolicy: 2,

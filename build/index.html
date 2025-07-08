@@ -125,7 +125,11 @@
 
     <script src="index.js"></script>
     <script>
-      document.documentElement.requestFullscreen().catch((e) => console.log(e));
+      document.addEventListener("doubleClick", () => {
+        document.documentElement
+          .requestFullscreen()
+          .catch((e) => console.log(e));
+      });
       const GODOT_CONFIG = {
         args: [],
         canvasResizePolicy: 2,
